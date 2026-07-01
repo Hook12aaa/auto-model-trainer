@@ -219,7 +219,7 @@ No custom runtime, no Python engine, no daemon. The plugin is markdown, YAML, an
 
 ---
 
-## Principles I will not bend on
+## Principles
 
 1. **Execute, don't eyeball.** Every metric comparison, every Pareto check, every gap calculation is a script that runs and returns JSON. LLMs are bad at arithmetic when numbers get close; scripts are not.
 2. **Autonomous by default.** The human is in the loop twice: the objective and the final approval. Everywhere else, the evidence decides.
