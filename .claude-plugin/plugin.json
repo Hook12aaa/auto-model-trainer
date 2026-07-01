@@ -1,0 +1,21 @@
+{
+  "name": "auto-model-trainer",
+  "description": "Long-horizon autonomous ML model training for Claude Code. Uses a Stop hook to drive an autonomous convergence loop -- Claude cannot stop until two-tier convergence (within-class exhaustion + cross-class coverage) passes. Explores multiple experiment variants in parallel via Dynamic Workflows and git worktrees, tracks lineage with SHA fingerprints, detects diminishing returns mechanically, and produces a final evidence-based report with Kaggle submission.csv.",
+  "version": "0.6.0",
+  "author": {
+    "name": "hook"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ml",
+    "training",
+    "autonomous",
+    "long-horizon",
+    "kaggle",
+    "experiments",
+    "worktrees",
+    "convergence",
+    "pareto",
+    "stop-hook"
+  ]
+}

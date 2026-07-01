@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "auto-model-trainer",
+  "description": "Marketplace for the Auto Model Trainer Claude Code plugin.",
+  "owner": {
+    "name": "hook"
+  },
+  "plugins": [
+    {
+      "name": "auto-model-trainer",
+      "description": "Long-horizon autonomous ML model training. Explores variant trees, tracks lineage with SHA fingerprints, autonomously selects winners, and delivers a final evidence-based report. Built for Kaggle challenges and production ML.",
+      "category": "development",
+      "source": "./",
+      "keywords": [
+        "ml",
+        "training",
+        "autonomous",
+        "long-horizon",
+        "kaggle",
+        "worktrees"
+      ]
+    }
+  ]
+}

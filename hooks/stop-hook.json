@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "command": "bash .auto-trainer/scripts/check_convergence.sh",
+  "event": "Stop",
+  "timeout": 30000
+}

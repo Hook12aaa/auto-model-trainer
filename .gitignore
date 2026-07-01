@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.auto-trainer/
+.model-trainer/
+.claude/
+.venv/
+*.egg-info/
+node_modules/
+*.log
